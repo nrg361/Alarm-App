@@ -1,0 +1,172 @@
+body {
+  text-align: center;
+  background-color: black;
+  background-image: url("bg5.jpg");
+  background-size: 100% 125% ;
+}
+.main{
+  margin-left: 100px;
+  margin-top: 200px;
+  background-color: rgb(70, 197, 12);
+  width: fit-content;
+  padding-bottom: 20px;
+  border-radius: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.sel{
+   display: inline-flex;
+   margin-bottom: 10px;
+}
+.btn{
+  display: inline-flex;
+  padding-bottom: 20px;
+}
+#ha {
+  text-align: center;
+  color: rgb(178, 184, 154);
+  font-size: 5rem;
+}
+#sub {
+  width: 250px;
+  font-size: x-large;
+  font-display: block;
+  background-color: rgb(178, 231, 178);
+  border: 2px rgb(70, 197, 12);
+}
+
+#songs{
+  width: 150px;
+  height: 25px;
+  font-size: large;
+  background-color: rgb(178, 231, 178);
+  border: 2px rgb(70, 197, 12);
+}
+
+#level{
+  margin-left: 20px;
+   width: 100px;
+  height: 25px;
+  font-size: large;
+  background-color: rgb(178, 231, 178);
+  border: 2px rgb(70, 197, 12);
+}
+
+#play{
+  background-color: cyan;
+  font: bold;
+  height: 40px;
+  border: 2px black;
+  border-radius: 30px;
+  
+}
+#snz{
+  background-color: cyan;
+  font: bold;
+  height: 40px;
+  border: 2px black;
+  border-radius: 30px;
+  margin-left: 10px;
+}
+
+#play:hover{
+  background-color: rgb(15, 96, 201);
+  cursor: pointer;
+}
+#snz:hover{
+  cursor: pointer;
+}
+#ct{
+  font-size: 100px;
+  color: rgb(15, 13, 13);
+}
+
+#songs:hover{
+  cursor: pointer;
+}
+#level:hover{
+  cursor: pointer;
+}
+
+#snoozee{
+  width: 50px;
+  height: 25px;
+  font-size: large;
+  background-color: rgb(178, 231, 178);
+  margin-left: 15px;
+  border: 2px rgb(70, 197, 12);
+}
+#snoozee:hover{
+  cursor: pointer;
+}
+.qa{
+  display: inline-flex;
+}
+#q1{
+  margin-top: 15px;
+    height: 15px;
+    width: 50px;
+    margin-left: 5px;
+    font-size:medium;
+  font-display: block;
+  background-color: rgb(178, 231, 178);
+}
+.qb{
+  display: inline-flex;
+}
+#q2{
+  margin-top: 15px;
+    height: 15px;
+    width: 50px;
+    margin-left: 5px;
+    font-size:medium;
+  font-display: block;
+  background-color: rgb(178, 231, 178);
+}
+.qc{
+  display: inline-flex;
+  margin-right: 65px;
+}
+#q3{
+  margin-top: 15px;
+    height: 15px;
+    width: 50px;
+    margin-left: 5px;
+    font-size:medium;
+  font-display: block;
+  background-color: rgb(178, 231, 178);
+}
+#sd{
+  display: none;
+}
+
+@media (max-width: 750px){
+
+.main{
+  margin-top: 10px;
+  background-color: rgb(70, 197, 12);
+  width: 200px;
+  border-radius: 100px;
+  margin-left: -5px;
+  
+}
+
+body {
+  text-align: center;
+  background-image: url("bg5.jpg");
+  background-size: 100% 105%;
+}
+
+#ct{
+  padding-top: 10px;
+  font-size: 40px;
+  color: rgb(15, 13, 13);
+}
+#sub{
+  margin-left: -40px;
+}
+#songs{
+  margin-left: -60px;
+}
+
+}

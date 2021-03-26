@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm App</title>
+
+    <div class="main">
+        <p id="ct"></p>
+        <div class="next">
+            <input type="text" id="sub" placeholder="HH:MM:SS AM/PM" title="Enter alarm time" autocomplete="off">
+            <br><br>
+            <div class="sel">
+                <select name="songs" id="songs" title="Select songs">
+                    <option value="Raabta.mp3">Raabta</option>
+                    <option value="GirlINeedYou.mp3">Girl I Need You</option>
+                    <option value="Makhna.mp3">Makhna</option>
+                    <option value="GirlsLikeYou.mp3">Girls Like You</option>
+                    <option value="TujheKitna.mp3">Tujhe Kitna</option>
+                </select>
+                <select name="snoozee" id="snoozee" title="Snooze for(sec)">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="60">60</option>
+                </select>
+                <select name="level" id="level" title="Difficulty of questions">
+                    <option value="1">Easy</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Hard</option>
+                </select>
+            </div>
+
+            <br><br>
+            <div class="btn">
+                <button onclick="playalarm()" id="play">Set alarm</button>
+                <button onclick="snooze()" id="snz">Snooze</button>
+            </div>
+        </div>
+        <div class="df" id="sd">
+            <h4>Answer these questions to stop the alarm:</h4>
+            <div class="qa">
+                <p id="aa"></p> <p>=</p> <input type="text" id="q1" autocomplete="off">
+            </div> <br>
+            <div class="qb">
+                <p id="ab"></p> <p>=</p> <input type="text" id="q2" autocomplete="off">
+            </div> <br>
+            <div class="qc">
+                <p id="ac"></p> <p>=</p><input type="text" id="q3" autocomplete="off">
+            </div>
+        </div>
+    </div>
+</head>
+
+<body>
+
+    <script src="logic.js"></script>
+
+</body>
+
+</html>
